@@ -1,0 +1,23 @@
+.vscode
+.idea
+
+audio.*
+*.md
+.git*
+local.settings.json
+
+# Python Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+requirements-dev.txt
