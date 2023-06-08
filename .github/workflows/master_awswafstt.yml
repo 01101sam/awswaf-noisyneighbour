@@ -64,6 +64,8 @@ jobs:
         with:
           app-name: 'awswafstt'
           slot-name: 'Production'
+          scm-do-build-during-deployment: true
+          enable-oryx-build: true
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2BCFF4F7B61C4A6BAF274F8AB26C59E9 }}
           scm-do-build-during-deployment: true
